@@ -14,6 +14,7 @@ gem 'haml', '~> 4.0.5'
 gem 'devise', '~> 4.2'
 gem 'simple_form', '~> 3.2.0'
 gem 'paperclip', '~> 5.0'
+gem 'acts_as_votable', '~> 0.10.0'
 
 
 
