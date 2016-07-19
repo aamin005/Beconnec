@@ -1,1 +1,5 @@
-%h1 This placeholder !
+- @posts.each do |post|
+  %h2= link_to post.title, post
+
+
+= link_to "Add New Product", new_post_path
