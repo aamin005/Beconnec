@@ -16,7 +16,7 @@ gem 'simple_form', '~> 3.2.0'
 gem 'paperclip', '~> 5.0'
 gem 'acts_as_votable', '~> 0.10.0'
 
-
+# Front-end
 
 
 group :development, :test do
@@ -32,3 +32,6 @@ group :development do
   gem 'spring'
 end
 
+group :test do
+	gem 'database_cleaner', '~> 1.5.3'
+end
